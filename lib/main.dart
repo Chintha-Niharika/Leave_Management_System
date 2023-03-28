@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:leave_management_system/mainscreen.dart';
 import 'package:leave_management_system/applyleavescreen.dart';
+import 'loginpage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: LoginScreen(),
     );
   }
 }
